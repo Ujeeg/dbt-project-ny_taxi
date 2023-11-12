@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: subtle-seer-403504
+    schema: nytaxi
+
+
+    tables:
+      - name: green_taxi_trips
+      - name: yellow_taxi_trips
